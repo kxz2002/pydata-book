@@ -3,7 +3,7 @@ import io
 import sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-print(sys.version)
+
 
 import json
 data=[{"name":"Mike","age":"11"},{"name":"张三","age":"20"},{"name":"Amy","age":"20"}]
